@@ -1,0 +1,16 @@
+{
+  "name": "loom",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon server.mjs"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
