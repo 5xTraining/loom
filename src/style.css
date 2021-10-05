@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+.btn-action {
+  @apply px-3 py-2 rounded bg-pink-500 text-white text-lg;
+}
+
+.video-frame {
+  @apply w-96 h-96 bg-gray-200 rounded p-3;
+}
+
+.video-container {
+  @apply grid gap-4 grid-cols-3;
+}
+
+video {
+  @apply w-full h-full object-cover;
+}
+@import "tailwindcss/utilities";

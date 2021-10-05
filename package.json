@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon server.mjs",
-    "dev": "parcel watch src/client.js --dist-dir public --no-source-maps"
+    "server": "nodemon src/server.mjs",
+    "dev:js": "parcel watch src/client.js --dist-dir public --no-source-maps",
+    "dev:css": "tailwindcss -i src/style.css -o public/style.css -w"
   },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "cssnano": "^5.0.8",
     "nodemon": "^2.0.13",
-    "parcel": "^2.0.0-rc.0"
+    "parcel": "^2.0.0-rc.0",
+    "postcss": "^8.3.9",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^2.2.16"
   }
 }
