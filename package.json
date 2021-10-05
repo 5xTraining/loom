@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon server.mjs"
+    "server": "nodemon server.mjs",
+    "dev": "parcel watch src/client.js --dist-dir public --no-source-maps"
   },
   "dependencies": {
     "ejs": "^3.1.6",
