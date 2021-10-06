@@ -9,8 +9,10 @@
 </head>
 <body>
   <main class="container mx-auto p-4">
-    <h1 class="text-6xl font-thin my-4">LOOM!</h1>
-    <a href="/rooms/new" class="btn-action">開房間</a>
+    <div id="room_id" data-id="<%= room_id %>"></div>
+    <h1 class="text-6xl font-thin my-4">LOOM: <%= room_id %></h1>
+    <div class="video-container"></div>
   </main>
+  <script src="client.js"></script>
 </body>
 </html>
